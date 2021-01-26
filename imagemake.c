@@ -30,7 +30,7 @@ typedef struct PackInfo
     SegAttribute_t Segment[3];
 }PackInfo_t;
 
-static const struct option long_options[]=      //长选项
+static const struct option long_options[]=      //long option
 {
     {"help",no_argument,NULL,'?'},
     {"app",required_argument,NULL,'a'},
