@@ -8,3 +8,4 @@ extern void     Crc32_Reset(void);
 extern uint32_t Crc32_CalcBlock(uint32_t crc, const uint8_t *p, uint32_t len);
 
 #endif /*_CRC32_H_*/
+
