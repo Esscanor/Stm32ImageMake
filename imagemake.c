@@ -43,6 +43,9 @@ void usage(void)
 {
     printf( "./ImageMake opt:\r\n"
             "exapmle:   ./ImageMake -a app.bin -b boot.bin -o 357A.bin -f 1024\r\n"
+            "usage: -a input app"
+            "       -b input boot.bin"
+            "       -f flash block size"
     );
 }
 
